@@ -17,7 +17,7 @@ class CustomSearchFormField extends StatelessWidget {
       },
       style: appTheme.textTheme.bodyText1,
       decoration: const InputDecoration(
-          hintText: 'Busca tu gato favorito por su raza...'),
+          hintText: 'Find your favorite cat by its breed...'),
     );
   }
 }

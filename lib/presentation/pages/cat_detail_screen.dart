@@ -311,7 +311,7 @@ class CatDetailPage extends StatelessWidget {
               width: 5,
             ),
             Text(
-              '$points/10',
+              '$points/5',
               style: themeData.textTheme.bodyText1,
             )
           ],
