@@ -9,9 +9,8 @@ class AppTheme {
   static ThemeData configureAppTheme() {
     final customTheme = ThemeData(
       primaryColor: primaryColor,
-      primaryColorDark: primaryColorDark,
       primaryColorLight: primaryColorLight,
-      colorScheme: ColorScheme.fromSwatch().copyWith(secondary: accentColor),
+      colorScheme: ColorScheme.fromSwatch(),
       scaffoldBackgroundColor: backgroundColor,
       inputDecorationTheme: _configureInputDecorationTheme(),
       visualDensity: VisualDensity.adaptivePlatformDensity,
